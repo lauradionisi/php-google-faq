@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+
+.nav-top {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.logo {
+    height: 100%;
+}
+.logo img {
+    height: 100%;
+    margin-right: 10px;
+}
+.privacy {
+    height: 60px;
+    line-height: 60px;
+    color: #5f6368;
+    font-size: 25px;
+}
+
+.nav-bottom {
+    display: flex;
+    height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #5f6368 ;
+}
+.nav-bottom ul {
+    display: flex;
+    align-items: center;
+}
+.nav-bottom ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-bottom ul li a {
+    text-decoration: none;
+    color: #5f6368;
+}
+#faq {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 13px;
+}
+
+
+/* MAIN  */
+
+main {
+    width: 60%;   
+    margin: 0 auto;
+    padding-top: 70px;
+}
